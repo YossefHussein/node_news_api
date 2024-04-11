@@ -15,12 +15,17 @@ app.listen(process.env.PORT || 3000, () => {
   console.log("server is started on port 3000");
 });
 
-// this conctiion to my database
-mongoose.connect("mongodb+srv://rd:newsapp@cluster0-zbbtc.mongodb.net/newsDB", {
+// this connect to my database
+mongoose.connect("mongodb+srv://newscluster.lniovc9.mongodb.net/", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
-});
+}).then(() => {
+  console.log('connected is complete')
+}).catch((error) => {
+  console.log(`error ${error}`)
+})
 
+//  project schema of project
 const newsSchema = {
   title: String,
   content: String,
@@ -49,7 +54,7 @@ app.post("/featured", (req, res) => {
     imageURL: req.body.imageURL,
     author: req.body.author,
   });
-  newNews.save(function (err, news) {
+  newNews.save((err, news) => {
     if (err) {
       res.send(err);
     } else {
@@ -76,7 +81,7 @@ app.get("/:newsTitle", (req, res) => {
         }, //based on author
       ],
     },
-    function (err, foundItems) {
+    (err, foundItems) => {
       if (foundItems) {
         res.send(foundItems);
       } else {
