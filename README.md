@@ -1,8 +1,11 @@
 # Node News Api
 
-<center><img src="https://share.creavite.co/661bea00b35e2d7e862bf8ab.gif
-" alt= server></center>
+<center>
 
+![server](https://share.creavite.co/661bea00b35e2d7e862bf8ab.gif)
+
+</center>
+</br>
 * this project make to make my news application in future
 </br>
 
