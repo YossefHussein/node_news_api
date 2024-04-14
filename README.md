@@ -1,15 +1,17 @@
 # Node News Api
 
 * this project make to make my news application in future
-<br>
+</br>
+
 you can run the server with this command
+
 ```
 npm run dev // dev mod
 /*or*/
 npm run start
 ```
 
-<br>
+</br>
 
 ---
 #### package used in this project:
