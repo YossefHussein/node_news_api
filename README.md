@@ -5,6 +5,7 @@
 ![server](https://share.creavite.co/661bea00b35e2d7e862bf8ab.gif)
 
 </center>
+
 </br>
 
 * this project make to make my news application in future
@@ -27,22 +28,10 @@ npm run start
 * body-parser
 ---
 #### My Social Media:
-<a herf = "https://twitter.com/YoussefElWazeer">
-<div>
-<img src="https://img.freepik.com/vrije-vector/nieuw-2023-twitter-logo-x-pictogramontwerp_1017-45418.jpg?w=740&t=st=1713105098~exp=1713105698~hmac=cf7d654bb52c0dd3b662cb277e4d5c3810010bc2ed531c0aabe9c93d7fe23f92" alt="twtter" style="width:20px;"/>
-<Strong> : Twitter account </Strong>
-</div>
-</a>
 
-<div>
-<a herf = "youssef.hussein.business@gmail.com">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/768px-Gmail_icon_%282020%29.svg.png" alt="gmail" style="width:20px;"/>
-<Strong> : Gmail account </Strong>
-</a>
-</div>
+<a href="mailto:youssef.hussein.business@gmail.com"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/768px-Gmail_icon_%282020%29.svg.png" alt="Email" width="20px"> Email</a> &nbsp;&nbsp;
 
-<a herf = "https://www.linkedin.com/in/youssef-hussein-aa3b38277/">
-<div><img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/linkedin-2752135-2284952.png?f=webp&w=256" alt="linkedin" style="width:20px;"/>
-<Strong> : Linkedin account</Strong>
-  </div>
-</a>
+<a href="https://twitter.com/YoussefElWazeer"><img src="https://img.freepik.com/vrije-vector/nieuw-2023-twitter-logo-x-pictogramontwerp_1017-45418.jpg?w=740&t=st=1713105098~exp=1713105698~hmac=cf7d654bb52c0dd3b662cb277e4d5c3810010bc2ed531c0aabe9c93d7fe23f92" alt="Twitter" width="20px"> Twitter</a> &nbsp;&nbsp;
+
+<a href="https://www.linkedin.com/in/youssef-hussein-aa3b38277/"><img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/linkedin-2752135-2284952.png" alt="LinkedIn" width="20px"> LinkedIn</a>
+
