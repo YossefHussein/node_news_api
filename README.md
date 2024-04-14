@@ -1,16 +1,16 @@
 # Node News Api
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Wikimedia_Foundation_Servers-8055_35.jpg">
+
 * this project make to make my news application in future
 </br>
 
 you can run the server with this command
-
 ```
 npm run dev // dev mod
 /*or*/
 npm run start
 ```
-
 </br>
 
 ---
