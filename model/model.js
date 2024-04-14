@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+const mongoose = require("mongoose")
 
 //  project schema of project
 const newsSchema = new mongoose.Schema({
@@ -12,6 +12,6 @@ const newsSchema = new mongoose.Schema({
 })
 
 // this to adding my schema
-const News = mongoose.model("News", newsSchema);
+const News = mongoose.model("News", newsSchema)
 
 module.exports = News

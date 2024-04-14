@@ -1,7 +1,7 @@
-const express = require("express");
-const News = require("../model/model");
-const newsRouter = express.Router();
-let myNews = News;
+const express = require("express")
+const News = require("../model/model")
+const newsRouter = express.Router()
+let myNews = News
 
 // this to adding new article  from admin
 newsRouter.post("/add-news", (req, res) => {
@@ -11,29 +11,29 @@ newsRouter.post("/add-news", (req, res) => {
         imageURL: req.body.news.imageURL,
         author: req.body.news.author,
         createAt: req.body.news.createAt
-    });
+    })
     newNews.save((err, news) => {
         if (err) {
-            res.send(err);
+            res.send(err)
         } else {
-            res.send(`news added successfully: \n news information: \n ${news}`);
+            res.send(`news added successfully: \n news information: \n ${news}`)
         }
-    });
-});
+    })
+})
 
 newsRouter.get("/get-news", (req, res) => {
     myNews.find(function (error, news) {
         if (!error) {
-            res.send(news);
+            res.send(news)
         } else {
-            res.send("error to get news");
+            res.send("error to get news")
         }
-    });
-});
+    })
+})
 
 // this function to search on news based and news title and author
 newsRouter.get("/search-news-title", (req, res) => {
-    const news = req.params.newsTitle;
+    const news = req.params.newsTitle
     myNews.find(
         {
             $or: [
@@ -51,12 +51,12 @@ newsRouter.get("/search-news-title", (req, res) => {
         },
         (err, foundItems) => {
             if (foundItems) {
-                res.send(foundItems);
+                res.send(foundItems)
             } else {
-                res.send("error");
+                res.send("error")
             }
         }
-    );
-});
+    )
+})
 
-module.exports = newsRouter;
+module.exports = newsRouter
