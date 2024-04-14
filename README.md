@@ -24,7 +24,7 @@ npm run start
 #### My Social Media:
 <a herf = "https://twitter.com/YoussefElWazeer">
 <div>
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg" alt="twtter" style="width:20px;"/>
+<img src="https://img.freepik.com/vrije-vector/nieuw-2023-twitter-logo-x-pictogramontwerp_1017-45418.jpg?w=740&t=st=1713105098~exp=1713105698~hmac=cf7d654bb52c0dd3b662cb277e4d5c3810010bc2ed531c0aabe9c93d7fe23f92" alt="twtter" style="width:20px;"/>
 <Strong> : Twitter account </Strong>
 </div>
 </a>
