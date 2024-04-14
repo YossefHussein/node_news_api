@@ -1,6 +1,7 @@
 # Node News Api
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Wikimedia_Foundation_Servers-8055_35.jpg">
+<center><img src="https://share.creavite.co/661bea00b35e2d7e862bf8ab.gif
+" alt= server></center>
 
 * this project make to make my news application in future
 </br>
