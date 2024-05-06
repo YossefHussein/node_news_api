@@ -21,8 +21,8 @@ newsRouter.post("/add-news", (req, res) => {
     })
 })
 
-newsRouter.get("/get-news", (req, res) => {
-    myNews.find(function (error, news) {
+newsRouter.get("/", async (req, res) => {
+   await myNews.find( (error, news) => {
         if (!error) {
             res.send(news)
         } else {
